@@ -1,0 +1,20 @@
+function Hero() {
+  return (
+    <section id="home">
+      <div className="container" style={{ padding: "100px 0" }}>
+        <h1>Elewi Ebenezer Mayowa</h1>
+
+        <p style={{ marginTop: "20px", fontSize: "1.2rem" }}>
+          Exercise Physiologist | Data Scientist | AI Engineer
+        </p>
+
+        <p style={{ marginTop: "25px", maxWidth: "700px" }}>
+          I build intelligent, data-driven solutions at the intersection of
+          health science, machine learning, and artificial intelligence.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+export default Hero;

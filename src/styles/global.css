@@ -1,0 +1,85 @@
+/* ===========================
+   GOOGLE FONTS
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+/* ===========================
+   CSS VARIABLES
+=========================== */
+
+:root {
+
+  /* Colors */
+  --primary: #2563EB;
+  --secondary: #14B8A6;
+  --accent: #F59E0B;
+
+  --background: #F8FAFC;
+  --surface: #FFFFFF;
+
+  --text: #1E293B;
+  --text-light: #64748B;
+
+  --border: #E2E8F0;
+
+  /* Fonts */
+
+  --heading-font: "Poppins", sans-serif;
+  --body-font: "Inter", sans-serif;
+
+}
+
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:var(--body-font);
+    background:var(--background);
+    color:var(--text);
+
+}
+
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+button{
+
+    cursor:pointer;
+    font-family:inherit;
+
+}
