@@ -1,0 +1,208 @@
+.about{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:15px;
+    color:var(--text);
+}
+
+.section-subtitle{
+    text-align:center;
+    color:var(--text-light);
+    margin-bottom:60px;
+    font-size:1.1rem;
+}
+
+.about-content{
+    display:flex;
+    align-items:center;
+    gap:4rem;
+}
+
+.about-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.about-image img{
+    width:320px;
+    height:320px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+.about-text{
+    flex:1.5;
+}
+
+.about-text p{
+    margin-bottom:25px;
+    font-size:1.1rem;
+    line-height:1.9;
+    color:var(--text-light);
+}
+
+.journey{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:30px;
+
+    margin-top:50px;
+
+    flex-wrap:nowrap;
+
+}
+
+.quick-facts{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.fact-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    text-align:center;
+
+    border:1px solid #E2E8F0;
+
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.fact-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(37,99,235,.15);
+
+}
+
+.fact-card span{
+
+    font-size:2.2rem;
+    opacity:.7;
+
+}
+
+.fact-card h4{
+
+    margin:15px 0 8px;
+
+    color:var(--dark);
+
+}
+
+.fact-card p{
+
+    color:var(--text-light);
+
+    font-size:.95rem;
+
+}
+
+.journey-item{
+
+    flex:1;
+
+    width:180px;
+
+    background:white;
+
+    border:1px solid #E2E8F0;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+
+}
+
+.journey-item:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(37,99,235,.15);
+
+}
+
+.journey-item span{
+
+    font-size:2rem;
+
+}
+
+.journey-item h4{
+
+    margin-top:15px;
+
+    font-size:1rem;
+
+}
+
+.journey-arrow{
+
+    font-size:2rem;
+
+    color:var(--primary);
+
+    font-weight:bold;
+
+}
+
+@media(max-width:900px){
+.journey{
+
+    flex-direction:column;
+
+}
+.quick-facts{
+
+    grid-template-columns:1fr;
+
+}
+
+.journey-arrow{
+
+    transform:rotate(90deg);
+
+}
+
+    .about-content{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-image img{
+        width:260px;
+        height:260px;
+    }
+
+}

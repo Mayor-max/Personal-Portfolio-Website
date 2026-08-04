@@ -1,20 +1,57 @@
-function Hero() {
-  return (
-    <section id="home">
-      <div className="container" style={{ padding: "100px 0" }}>
-        <h1>Elewi Ebenezer Mayowa</h1>
-
-        <p style={{ marginTop: "20px", fontSize: "1.2rem" }}>
-          Exercise Physiologist | Data Scientist | AI Engineer
-        </p>
-
-        <p style={{ marginTop: "25px", maxWidth: "700px" }}>
-          I build intelligent, data-driven solutions at the intersection of
-          health science, machine learning, and artificial intelligence.
-        </p>
-      </div>
-    </section>
-  );
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#ffffff;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    z-index:1000;
 }
 
-export default Hero;
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+}
+
+.logo{
+    font-size:1.8rem;
+    font-weight:700;
+    color:var(--primary);
+    font-family:var(--heading-font);
+}
+
+.nav-links{
+    display:flex;
+    gap:2rem;
+    list-style:none;
+}
+
+.nav-links a{
+    color:var(--text);
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:var(--primary);
+}
+
+@media (max-width:768px){
+
+    .nav-container{
+        flex-direction:column;
+        justify-content:center;
+        height:auto;
+        padding:20px 0;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        gap:1rem;
+        margin-top:20px;
+        text-align:center;
+    }
+
+}
