@@ -49,7 +49,8 @@ html{
 }
 
 body{
-
+    
+    overflow-x:hidden;
     font-family:var(--body-font);
     background:var(--background);
     color:var(--text);

@@ -23,6 +23,10 @@ function Projects() {
 
           <div className="project-card">
 
+          <div className="featured-badge">
+              ⭐ Featured Project
+          </div>
+
             <div className="project-image">
               <img
                 src={aiDetection}
@@ -37,7 +41,7 @@ function Projects() {
               </h3>
 
               <p>
-                Machine Learning system for detecting AI-generated academic writing using NLP techniques and feature engineering.
+                Developed an end-to-end machine learning system to distinguish AI-generated and human-written academic submissions using NLP, TF-IDF vectorization, feature engineering, and classification models.
               </p>
 
               <div className="tech-stack">
@@ -51,7 +55,7 @@ function Projects() {
 
               <div className="project-links">
 
-                <a href="#">GitHub</a>
+                <a href="#">View Code →</a>
 
                 <a href="#">Live Demo</a>
 
@@ -79,7 +83,7 @@ function Projects() {
               </h3>
 
               <p>
-               Retail Sales Forecasting Using ARIMA Models
+               Built ARIMA forecasting models to predict retail sales trends, performing stationarity testing, model evaluation, and forecast visualization.
               </p>
 
               <div className="tech-stack">
@@ -92,7 +96,7 @@ function Projects() {
 
               <div className="project-links">
 
-                <a href="#">GitHub</a>
+                <a href="#">View Code →</a>
 
               </div>
 
@@ -118,7 +122,7 @@ function Projects() {
               </h3>
 
               <p>
-               Sentiment Classification Using Natural Language Processing
+               Designed a sentiment classification pipeline using text preprocessing, TF-IDF feature extraction, and machine learning models for multi-class sentiment prediction.
               </p>
 
               <div className="tech-stack">
@@ -131,7 +135,7 @@ function Projects() {
 
               <div className="project-links">
 
-                <a href="#">GitHub</a>
+                <a href="#">View Code →</a>
 
               </div>
 

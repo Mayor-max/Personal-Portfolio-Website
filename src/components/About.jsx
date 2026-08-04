@@ -1,9 +1,17 @@
 import "../styles/About.css";
 import profileImage from "../assets/images/profile.jpg";
+import { motion } from "framer-motion";
 
 function About() {
   return (
-    <section id="about" className="about">
+    <motion.section
+      id="about"
+      className="about"
+      initial={{ opacity: 0, y: 60 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.25 }}
+      transition={{ duration: 0.8 }}
+    >
 
       <div className="container">
 
@@ -108,7 +116,7 @@ function About() {
 
       </div>
 
-    </section>
+    </motion.section>
   );
 }
 

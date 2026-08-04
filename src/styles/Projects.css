@@ -11,6 +11,8 @@
 }
 
 .project-card{
+    cursor:pointer;
+
     position:relative;
 
     background:white;
@@ -30,7 +32,7 @@
 
 .project-card:hover{
 
-    transform:translateY(-10px);
+    transform:translateY(-12px);
 
     box-shadow:0 20px 45px rgba(37,99,235,.18);
 
@@ -119,9 +121,9 @@
 
     flex-wrap:wrap;
 
-    gap:12px;
+    gap:10px;
 
-    margin-bottom:30px;
+    margin:20px 0;
 
 }
 
@@ -129,16 +131,25 @@
 
     background:#EFF6FF;
 
-    color:var(--primary);
+     color:#2563EB;
 
     padding:8px 16px;
 
-    border-radius:50px;
+    border-radius:30px;
 
-    font-size:.9rem;
+    font-size:.85rem;
 
     font-weight:600;
 
+    transition:.3s;
+
+}
+
+.tech-stack span:hover{
+
+    background:#2563EB;
+
+    color:white;
 }
 
 .project-links{
